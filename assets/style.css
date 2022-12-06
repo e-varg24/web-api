@@ -1,0 +1,149 @@
+:root {
+    /* root of the document background color  */
+    background-color: rgb(235, 194, 194);
+}
+
+#wrapper {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    width: 500px;
+    height: 500px;
+
+    
+}
+#startTime {
+    background-color: rgb(65, 111, 62);
+    margin-left: 33%;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+   
+    
+}
+#questionsDiv {
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#currentTime {
+    float: right;
+}
+
+#goBack {
+    background-color: rgb(65, 111, 62);
+    position: relative;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    top: 30%;
+    left: 55%;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+#clear {
+    background-color: rgb(65, 111, 62);
+    position: relative;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    top: 30%;
+    right: 5%;
+    text-align: center;
+}
+
+button {
+    border-radius: 8px;
+}
+
+textarea {
+    width: 90%;
+    margin: 20px;
+}
+
+#Submit {
+    background-color: rgb(65, 111, 62);
+    margin-left: 33%;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+}
+
+label {
+    margin-right: 10px;
+}
+input {
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    background-color: rgb(94, 127, 150);
+    margin-top: 10px;
+    padding: 10px 20px;
+    width: 50%;
+    font-size: 15px;
+    color: white;
+    border-radius: 8px;
+   
+}
+
+#createDiv {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+}
+
+/* Media Query max-width: 786px */
+
+@media screen and (max-width: 786px) {
+/* Resized content 786px  */
+body {
+    max-width: 786px;
+}
+/* Resized to fit 786px  */
+#wrapper {
+position: absolute;
+left: 20%;
+}
+
+a {
+margin-left: 20%;
+}
+#goBack {
+    
+    position: relative;
+    left: 55%;
+}
+
+#clear {
+    
+    position: relative;
+    right: 5%;
+    
+}
+}
+
+/* A Media Query max-width: 640px */
+@media screen and (max-width: 640px) {
+/* Resized content 640px  */
+body {
+    min-width: 640px;
+}
+/* Resized to fit 640px  */
+#wrapper {
+position: absolute;
+left: 10%;
+}
+a {
+  margin-left: 10%;
+}
+}

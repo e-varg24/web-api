@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./Assets/style.css">
+
+
+    <title>Knowledge Test </title>
+
 </head>
+
 <body>
 
-    <button id="start">Start</button>
-    <script src = "script.js"></script>
+    <!-- linking to highscores html -->
+    <a href="hs.html">View Highscores</a>
+    <div id="wrapper">
+    
+        <!-- timer -->
+        <div id="currentTime"></div>
+
+        <!-- quiz div -->
+
+        <div id="questionsDiv">
+            <h1>Knowledge Challenge</h1>
+            <p>The objective of this challange is to answer the following questions within the time limit.
+                 If answered incorrectly you
+                will be penalized by 10 seconds!</p>
+            <ul id="choicesUl"></ul>
+
+
+            <!-- buttons -->
+            <button id="startTime">Start Quiz</button>
+        </div>
+
+    </div>
+<!-- using seperate js for questions  -->
+    <script src="Assets/script.js"></script>
+
+
 </body>
+
 </html>
+     
